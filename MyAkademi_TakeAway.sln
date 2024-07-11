@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{121BDBD0-766A-4DBE-9A11-731BEACA005C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{71993900-8A42-4A52-907D-82C2124B03D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4EB4DCB8-6C30-47AA-A389-36B67FBD57A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{8810C70C-B03A-4FEB-8ADB-13D16CCAB63C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{58A448E0-0D43-4C90-A826-A9D8777708AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAkademi_TakeAway.Catalog", "Services\Catalog\MyAkademi_TakeAway.Catalog\MyAkademi_TakeAway.Catalog.csproj", "{0005CEB7-CED3-4FE8-A2D9-0534E0C21FDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0005CEB7-CED3-4FE8-A2D9-0534E0C21FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0005CEB7-CED3-4FE8-A2D9-0534E0C21FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0005CEB7-CED3-4FE8-A2D9-0534E0C21FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0005CEB7-CED3-4FE8-A2D9-0534E0C21FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{58A448E0-0D43-4C90-A826-A9D8777708AA} = {4EB4DCB8-6C30-47AA-A389-36B67FBD57A9}
+		{0005CEB7-CED3-4FE8-A2D9-0534E0C21FDF} = {58A448E0-0D43-4C90-A826-A9D8777708AA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E64C32EA-31C7-4D54-B815-7763398DA5D9}
+	EndGlobalSection
+EndGlobal
