@@ -50,3 +50,5 @@ namespace MyAkademi_TakeAway.Catalog.Services.SliderServices
         }
     }
 }
+
+
