@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\MyAkademi_TakeAway.Application\MyAkademi_TakeAway.Application.csproj" />
+    <ProjectReference Include="..\..\Core\MyAkademi_TakeAway.Domain\MyAkademi_TakeAway.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

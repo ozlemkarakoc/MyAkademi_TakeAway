@@ -15,6 +15,11 @@ namespace MyAkademi_TakeAway.Discount.Context
             __connectionString = _configuration.GetConnectionString("DefaultConnection");
         }
 
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer("");
+        //}
+
         public DbSet<DiscountCoupon> DiscountCoupons { get; set; }
 
         private readonly string __connectionString;
