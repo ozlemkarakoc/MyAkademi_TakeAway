@@ -1,5 +1,7 @@
 using MyAkademi_TakeAway.Application.Features.CQRS.Handlers.AddressHandlers;
+using MyAkademi_TakeAway.Application.Interfaces;
 using MyAkademi_TakeAway.Persistence.Context;
+using MyAkademi_TakeAway.Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +18,8 @@ builder.Services.AddScoped<UpdateAddressCommandHandler>();
 builder.Services.AddScoped<RemoveAddressCommandHandler>();
 
 #endregion
+
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
